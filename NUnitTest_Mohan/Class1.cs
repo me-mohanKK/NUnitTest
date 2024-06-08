@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using NUnit.Framework.Legacy;
 using NUnitDemonstration;
 
-namespace NUnitTestDemo 
+namespace NUnitTestDemo
 {
     [TestFixture]
     public class TriangleTest1
@@ -25,7 +20,7 @@ namespace NUnitTestDemo
             // Act
             string actual = Triangle.ValidTriangle(firstAngle, secondAngle, thirdAngle);
 
-            // Assert
+            // Assertion
             ClassicAssert.AreEqual(expected, actual);
         }
     }
