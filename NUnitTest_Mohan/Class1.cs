@@ -7,7 +7,7 @@ namespace NUnitTestDemo
     [TestFixture]
     public class TriangleTest1
     {
-        // Mohan Test
+        // MohanKumar Mutation Test Lab 3
         [Test]
         public void ValidTriangle_Input60and60and60_OutputValidTriangle()
         {
